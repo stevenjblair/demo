@@ -1,0 +1,19 @@
+---
+title: "Virisdis Notebook"
+output: html_notebook
+---
+ 
+
+```{r include =FALSE}
+install.packages("viridisLite")
+library(viridis)
+```
+
+This code below demonstrates two colow palettes in the viridis package.  Each plot displays a contour map of the Maunga Whau volcano in the Aukland, New Zealand.
+
+## Viridis colors
+
+```{r include =FALSE}
+image(volcano, col = viridis(200))
+```
+
